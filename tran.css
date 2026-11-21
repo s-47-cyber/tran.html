@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.cont{
+    width: 70%;
+    height: 70dvh;
+    margin: 50px auto;
+    border: 1px dashed;
+    perspective: 300px;
+}
+.mo{
+    height: 340px;
+    width: 200px;
+    /* border: 2px solid; */
+    margin:20px auto;
+    border-radius: 20px;
+    background-color: red;
+    /* transform: rotate(12deg); */
+    /* rotate: 12deg; */
+    transition-duration: .5s;
+    transition-property: translate background-color all;
+    transition-delay: 1s;
+    transition-timing-function: ;
+    transition: cubic-bezier(0.23, 1, 0.320, 1) ;
+}
+.mo:hover{
+    /* transform: translate(40px,70px); */
+    /* transform: rotate(40deg) scale(1.2) translate(200px); */
+    /* transform: translateZ(100px); */
+    /* transform: scale(1.2); */
+    /* transform: rotate(15deg) translate(40px); */
+    /* transform: skew(30deg); */
+    translate: 100px;
+    rotate: 20deg;
+    background-color: blue;
+
+}

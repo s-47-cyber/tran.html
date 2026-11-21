@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.broa{
+     height: 70dvh;
+    width: 70%;
+    /* border: 1px solid; */
+    margin: 20px auto;
+    display: grid;
+     gap: 7px;
+    padding: 7px;
+    column-gap: 7px;
+      grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-template-areas: 
+  /* "HEADER HEADER HEADER"
+  "SIDEBAR CONTENT1 CONTENT1"
+   "SIDEBAR CONTENT2 CONTENT3"
+   "FOOTER FOOTER FOOTER"; */
+  
+}
+
+.bro{
+    font-size: 2rem;
+}
+.bro1{
+ background-color: orange;
+ grid-column: span 5;
+ grid-row: span 1;
+ text-align: center;
+ align-content: center;
+}
+.bro2{
+    background-color: darkorange;
+   /* grid-column:span 5 ; */
+   grid-row: 2/4;
+   text-align: center;
+   align-content: center;
+}
+.bro3{
+    background-color: red;
+   grid-column:span 4;
+     text-align: center;
+    align-content: center;
+}
+.bro6{
+   background-color: blueviolet;
+   grid-column: 2/3;
+   text-align: center;
+     align-content: center; 
+}
+.bro7{
+    background-color: blueviolet;
+    grid-column: 3/6;
+    text-align: center;
+  align-content: center;
+  
+}
+.bro8{
+     background-color: orange;
+     grid-column:6/1;
+      text-align: center;
+    align-content: center;
+}
